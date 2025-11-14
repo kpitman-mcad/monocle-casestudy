@@ -1,0 +1,33 @@
+/**
+*Kevin Pitman, MCAD, Web Development Fall 25, Design System Study
+*All images and text are sourced from the Monocle.com website, and are used here expressly for educational purposes. Monocle holds all copyrights.
+**/
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+html {
+  --black: #000000;
+  --white: #ffffff;
+
+  --font-sans-serif: "neue-haas-unica", sans-serif;
+}
+body {
+
+}
+
+h1,
+h2,
+h3 {
+
+}
+
+img {
+  max-width: 100%;
+}
+
+/**
+* Header
+**/
