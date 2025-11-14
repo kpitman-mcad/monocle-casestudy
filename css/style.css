@@ -9,19 +9,30 @@
   box-sizing: border-box;
 }
 html {
-  --black: #000000;
-  --white: #ffffff;
-
-  --font-sans-serif: "neue-haas-unica", sans-serif;
+  --black: #000;
+  --white: #fff;
+  --neutral-gray: #fdfcf3;
+  --light-yellow: #fdfbe4;
+  --dark-gray: #2a2929;
+  --mid-gray: #6e6e6e;
+  --yellow: #ffc500;
+  --light-blue: #64d5ff;
+  --mid-light-gray: #e7e7e7;
+  --font-serif: "plantin", sans-serif;
+  --font-sans-serif: "helvetica-neue-lt-pro", sans-serif;
 }
 body {
-
+  background-color: aquamarine;
+  font-family: var(--font-serif);
+  line-height: 1.5rem;
+  letter-spacing: -.01rem;
 }
 
 h1,
 h2,
 h3 {
-
+  color: var(--black);
+  font-weight: 600;
 }
 
 img {
