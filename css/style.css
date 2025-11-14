@@ -21,22 +21,60 @@ html {
   --font-serif: "plantin", sans-serif;
   --font-sans-serif: "helvetica-neue-lt-pro", sans-serif;
 }
+
+/**
+* Typography
+**/
 body {
-  background-color: aquamarine;
+  background-color: var(--white);
   font-family: var(--font-serif);
-  line-height: 1.5rem;
+  font-weight: 400;
+  font-size: 1.125rem;
+  line-height: 1.444rem;
   letter-spacing: -.01rem;
+  font-variant-numeric: oldstyle-nums;
 }
 
 h1,
 h2,
 h3 {
+  font-family: var(--font-serif);
   color: var(--black);
   font-weight: 600;
+  word-wrap: break-word;
+}
+h1{
+  font-size: ;
+  text-transform: uppercase;
+}
+h2{
+  font-size: 2rem;
+  line-height: 1.2;
+}
+h3{
+  font-size: 1.25rem;
+  line-height: 1.25;
 }
 
 img {
   max-width: 100%;
+  display: block;
+}
+
+/**
+* Component
+**/
+.component img {
+  max-width: initial;
+}
+
+.component__img {
+  border: 1px solid var(--mid-gray);
+  overflow-x: auto;
+}
+
+.component__code {
+  border: 1px solid var(--mid-gray);
 }
 
 /**
