@@ -23,7 +23,7 @@ html {
 }
 
 /**
-* Typography
+* Global Styling
 **/
 body {
   background-color: var(--white);
@@ -43,15 +43,15 @@ h3 {
   font-weight: 600;
   word-wrap: break-word;
 }
-h1{
-  font-size: ;
+h1 {
+  font-size: 30rem;
   text-transform: uppercase;
 }
-h2{
+h2 {
   font-size: 2rem;
   line-height: 1.2;
 }
-h3{
+h3 {
   font-size: 1.25rem;
   line-height: 1.25;
 }
@@ -62,12 +62,47 @@ img {
 }
 
 /**
-* Component
+* Component Page Style
 **/
+.component--body {
+  max-width: 81rem;
+  margin: auto;
+}
+.component--header__topnav {
+  background-color: red;
+  margin
+}
+.component--header__topnav ul {
+  list-style-type: none;
+  flex-direction: row;
+  display: flex;
+
+}
+
+.component--header__topnav a {
+  font-family: var(--font-sans-serif);
+  text-transform: uppercase;
+
+}
+
+
+.component--header__title {
+  max-width: 48rem;
+  background-color: blue;
+  margin: auto;
+  border: 10px solid black;
+}
+
+
+
+
+
+
+
+
 .component img {
   max-width: initial;
 }
-
 .component__img {
   border: 1px solid var(--mid-gray);
   overflow-x: auto;
@@ -77,6 +112,8 @@ img {
   border: 1px solid var(--mid-gray);
 }
 
+
+
 /**
-* Header
+* Monocle Header
 **/
