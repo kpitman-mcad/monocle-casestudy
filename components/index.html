@@ -12,8 +12,7 @@
 </head>
 <body>
     <div class="component--body">
-    <header class="component--header">
-        <section class="component--header__topnav">
+        <div class="component--banner">
             <ul>
             <li>
                 <a href="https://github.com/kpitman-mcad/monocle-casestudy/blob/main/assets/Pitman_Kevin_WebSystemStudy_Final.pdf">Preliminary Design</a>
@@ -25,13 +24,14 @@
                 <a href="https://github.com/kpitman-mcad/monocle-casestudy">GitHub Resources</a>
             </li>
             </ul>
-        </section>
-    </header>
-        <section class="component--header__title">
+        </div>
+
+        <header class="component--header">
             <img src="img/monocle-component-title.svg" alt="Monocle Component Library">
-        </section>
-        <section class="component--header__mainnav">
-          <ul class="component--header__mainnav__list">
+        </header>
+    
+        <nav class="component--nav">
+          <ul class="component--nav__list">
             <li><a href="@!">Header</a></li>
             <li>&#124;</li>
             <li><a href="@!">Articles</a></li>
@@ -54,60 +54,89 @@
             <li>&#124;</li>
             <li><a href="@!">Footer</a></li>
           </ul>
-        </section>
+        </nav>
 
-    <main>
-        <h1>Web Components</h1>
+        <main class="component--main">
+            <div class="component--main__header">
+                <h2 class="component--main__h2">Typography</h2>
+            </div> 
 
-        <h2>Typography Defaults</h2>
+            <article class="component--article">
+                <h3 class="component--article__h3">
+                    Typography Tag
+                </h3>
+                <div class="component--img">
+                    <img src="#!" alt="This image is property of Monocle">
+                    <p class="component--img__subtitle">IMG</p>
+                </div>
+                <div class="component--code">
+                    <div class="component--code__typography">
+                        typography code
 
-        <article class="component">
-            <h3 class="component__name">body</h3>
-            <div class="component__img">
-                <img src="img/main--featured__body.jpg" alt="body copy">
-            </div>
-            <div class="component__code">
+
+                    </div>
+                    <p class="component--code__subtitle">CODE</p>
+                </div>
+            </article>
+
+
+
+
+
+
+
+
+            <h1>Web Components</h1>
+
+            <h2>Typography Defaults</h2>
+
+            <article class="component">
+                <h3 class="component__name">body</h3>
+                <div class="component__img">
+                    <img src="img/main--featured__body.jpg" alt="body copy">
+                </div>
+                <div class="component__code">
+                <p>
+                    Having converted their centuries old farmhouse at the gateway to the Dolomites into a guesthouse with five apartments, Christa and Andreas Klotzner called in designer Harry Thaler to supply some final touches.
+                </p>
+                </div>
+            </article>
+
+            <article class="component">
+                <h3 class="component__name">h1, h2, h3</h3>
+                <div class="component__img">
+                    <img src="img/header--logo__h1.jpg" alt="body copy">
+                    <img src="img/main--featured__h2.jpg" alt="h2">
+                    <img src="img/main--cards__h3.jpg" alt="h3">
+                </div>
+                <div class="component__code">
+                <p>
+                    <h1>Monocle</h1>
+                    <h2>Designer Harry Thaler's breathtaking Dolomites farmhouse transformation</h2>
+                    <h3>Want to sharpen your pen? Learn from a master of the lens</h3>
+                </p>
+                </div>
+            </article>
+
+
+
+            <h3>a</h3>
+            <img src="#!" alt="a">
+
             <p>
-                Having converted their centuries old farmhouse at the gateway to the Dolomites into a guesthouse with five apartments, Christa and Andreas Klotzner called in designer Harry Thaler to supply some final touches.
+                Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.
+                Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.
+                Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.
+                Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.
+                Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.
+                Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.
+                Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.
+                Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.
+                Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.
+                Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.
             </p>
-            </div>
-        </article>
 
-        <article class="component">
-            <h3 class="component__name">h1, h2, h3</h3>
-            <div class="component__img">
-                <img src="img/header--logo__h1.jpg" alt="body copy">
-                <img src="img/main--featured__h2.jpg" alt="h2">
-                <img src="img/main--cards__h3.jpg" alt="h3">
-            </div>
-            <div class="component__code">
-            <p>
-                <h1>Monocle</h1>
-                <h2>Designer Harry Thaler's breathtaking Dolomites farmhouse transformation</h2>
-                <h3>Want to sharpen your pen? Learn from a master of the lens</h3>
-            </p>
-            </div>
-        </article>
-
-
-
-        <h3>a</h3>
-        <img src="" alt="a">
-
-        <p>
-            Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.
-            Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.
-            Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.
-            Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.
-            Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.
-            Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.
-            Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.
-            Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.
-            Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.
-            Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.
-        </p>
-
-    </main>
+        </main>
     </div>
 </body>
 </html>

@@ -28,34 +28,33 @@ html {
 body {
   background-color: var(--white);
   font-family: var(--font-serif);
-  font-weight: 400;
+  color: var(--black);
+  /* font-weight: 400;
   font-size: 1.125rem;
   line-height: 1.444rem;
-  letter-spacing: -.01rem;
+  letter-spacing: -.01rem; */
   font-variant-numeric: oldstyle-nums;
 }
 
 h1,
 h2,
 h3 {
-  font-family: var(--font-serif);
-  color: var(--black);
-  font-weight: 600;
-  word-wrap: break-word;
+  /* font-family: var(--font-serif); */
+  /* font-weight: 600; */
+  /* word-wrap: break-word; */
 }
 h1 {
-  font-size: 30rem;
-  text-transform: uppercase;
+  /* font-size: 30rem;
+  text-transform: uppercase; */
 }
 h2 {
-  font-size: 2rem;
-  line-height: 1.2;
+  /* font-size: 2rem;
+  line-height: 1.2; */
 }
 h3 {
-  font-size: 1.25rem;
-  line-height: 1.25;
+  /* font-size: 1.25rem;
+  line-height: 1.25; */
 }
-
 img {
   max-width: 100%;
   display: block;
@@ -68,22 +67,24 @@ img {
   max-width: 81rem;
   margin: auto;
 }
-.component--header {
-  position: sticky;
-  top: 0;
-}
-.component--header__topnav {
+
+/**
+* Component Banner
+**/
+.component--banner {
   background-color: var(--white);
   border-bottom: 1px solid var(--black);
   padding: 1rem 0;
+  position: sticky;
+  top: 0;
 }
-.component--header__topnav ul {
+.component--banner ul {
   list-style-type: none;
   display: flex;
   margin: 0 -2rem;
   gap: .5rem;
 }
-.component--header__topnav a {
+.component--banner a {
   font-family: var(--font-sans-serif);
   text-transform: uppercase;
   text-decoration: none;
@@ -91,27 +92,35 @@ img {
   font-size: .8125rem;
   font-weight: 700;
 }
-.component--header__topnav a:hover {
+.component--banner a:hover {
   text-decoration: underline;
 }
-.component--header__title {
+
+/**
+* Component Header
+**/
+.component--header {
   margin: 0;
   padding: 1rem 0;
   border-bottom: 1px solid var(--black);
 }
-.component--header__title img {
+.component--header img {
   max-width: 48rem;
   margin: auto;
 }
-.component--header__mainnav {
+
+/**
+* Component Nav
+**/
+.component--nav {
   background-color: var(--white);
   border-bottom: 1px solid var(--black);
   margin: 0;
   padding: 0.75rem 0;
   position: sticky;
-  top: 3.58rem;
+  top: 3.2rem;
 }
-.component--header__mainnav__list {
+.component--nav__list {
   display: flex;
   text-transform: uppercase;
   list-style-type: none;
@@ -121,31 +130,75 @@ img {
   font-size: 1rem;
   margin: 0;
 }
-.component--header__mainnav__list a {
+.component--nav__list a {
   text-decoration: none;
   color: var(--black);
 }
-.component--header__mainnav__list a:hover {
+.component--nav__list a:hover {
   text-decoration: underline;
 }
 
-
-
-
-.component img {
-  max-width: initial;
+/**
+* Component Main
+**/
+.component--main {
+  margin: 2rem 0;
 }
+.component--main__header {
+  border-top: 4px solid var(--black);
+  display: flex;
+  align-items: center;
+  padding: 0.75rem 0;
+}
+.component--main__h2 {
+  font-size: 1.75rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  line-height: 1.25;
+  margin: 0;
+}
+
+/**
+* Component Articles
+**/
+.component--article {
+
+
+}
+.component--article__h3 {
+  font-size: 1.25rem;
+  line-height: 1.25;
+  font-weight: 400;
+  margin: 0;
+}
+.component--img {
+
+
+}
+
+
+.component--code {
+
+
+}
+
+/**
+* Typography
+**/
+.component--code__typography {
+
+}
+
+
+
+
+
+
 .component__img {
+  max-width: initial;
   border: 1px solid var(--mid-gray);
   overflow-x: auto;
 }
-
 .component__code {
   border: 1px solid var(--mid-gray);
 }
-
-
-
-/**
-* Monocle Header
-**/
