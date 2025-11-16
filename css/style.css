@@ -218,8 +218,93 @@ img {
 **/
 .component--code__banner {
   display: flex;
+  gap: 1rem;
+}
+.banner--navigation--atom__a {
+  color: var(--black);
+  padding: 5px;
+  background: none;
+  border: none;
+}
+.banner--navigation--atom__a a {
+  color: var(--black); 
+}
+.banner--navigation--atom__a a:hover {
+  color: var(--mid-gray);  
+}
+.banner--navigation--atom__b ul {
+  list-style-type: none;
+  display: flex;
+  margin: 0 1rem;
+  gap: .5rem;
+  padding-left: 0;
+}
+.banner--navigation--atom__b a {
+  font-family: var(--font-sans-serif);
+  text-transform: uppercase;
+  text-decoration: none;
+  color: var(--black);
+  font-size: .8125rem;
+  font-weight: 700;
+}
+.banner--navigation--atom__b a:hover {
+  text-decoration: underline;
 }
 .banner--utility--atom__a {
   color: var(--black);
   padding: 5px;
+  background: none;
+  border: none;
 }
+.banner--utility--atom__a a {
+  color: var(--black); 
+}
+.banner--utility--atom__a a:hover {
+  color: var(--mid-gray);  
+}
+.banner--utility--atom__b a {
+  font-family: var(--font-sans-serif);
+  text-transform: uppercase;
+  text-decoration: none;
+  color: var(--black);
+  font-size: .8125rem;
+  font-weight: 700;
+}
+.banner--utility--atom__b a:hover {
+  text-decoration: underline;
+}
+.banner--utility--atom__c a {
+  background-color: var(--yellow);
+  font-family: var(--font-sans-serif);
+  text-transform: uppercase;
+  text-decoration: none;
+  color: var(--black);
+  font-size: .8125rem;
+  font-weight: 700;
+  padding: 15px;
+}
+.banner--utility--atom__d {
+  color: var(--black);
+  padding: 5px;
+  background: none;
+  border: none;
+}
+.banner--utility--atom__d a {
+  color: var(--black); 
+}
+.banner--utility--atom__d a:hover {
+  color: var(--mid-gray);  
+}
+.banner--utility--atom__e {
+  color: var(--black);
+  padding: 5px;
+  background: none;
+  border: none;
+}
+.banner--utility--atom__e a {
+  color: var(--black); 
+}
+.banner--utility--atom__e a:hover {
+  color: var(--mid-gray);  
+}
+
