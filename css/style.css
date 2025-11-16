@@ -68,34 +68,66 @@ img {
   max-width: 81rem;
   margin: auto;
 }
+.component--header {
+  position: sticky;
+  top: 0;
+}
 .component--header__topnav {
-  background-color: red;
-  margin
+  background-color: var(--white);
+  border-bottom: 1px solid var(--black);
+  padding: 1rem 0;
 }
 .component--header__topnav ul {
   list-style-type: none;
-  flex-direction: row;
   display: flex;
-
+  margin: 0 -2rem;
+  gap: .5rem;
 }
-
 .component--header__topnav a {
   font-family: var(--font-sans-serif);
   text-transform: uppercase;
-
+  text-decoration: none;
+  color: var(--black);
+  font-size: .8125rem;
+  font-weight: 700;
 }
-
-
+.component--header__topnav a:hover {
+  text-decoration: underline;
+}
 .component--header__title {
-  max-width: 48rem;
-  background-color: blue;
-  margin: auto;
-  border: 10px solid black;
+  margin: 0;
+  padding: 1rem 0;
+  border-bottom: 1px solid var(--black);
 }
-
-
-
-
+.component--header__title img {
+  max-width: 48rem;
+  margin: auto;
+}
+.component--header__mainnav {
+  background-color: var(--white);
+  border-bottom: 1px solid var(--black);
+  margin: 0;
+  padding: 0.75rem 0;
+  position: sticky;
+  top: 3.58rem;
+}
+.component--header__mainnav__list {
+  display: flex;
+  text-transform: uppercase;
+  list-style-type: none;
+  justify-content: center;
+  padding: 0;
+  gap: .5rem;
+  font-size: 1rem;
+  margin: 0;
+}
+.component--header__mainnav__list a {
+  text-decoration: none;
+  color: var(--black);
+}
+.component--header__mainnav__list a:hover {
+  text-decoration: underline;
+}
 
 
 
