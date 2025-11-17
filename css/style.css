@@ -388,3 +388,46 @@ img {
 /**
 * Article
 **/
+
+
+.article--main {
+  display: flex;
+  flex-direction: column;
+  max-width: 40rem;
+
+}
+.article--main--atoms {
+  display: flex;
+}
+.article--main--atom__a {
+  max-width: 40rem;
+}
+.article--main--atom__a a {
+  font-family: var(--font-serif);
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: .8125rem;
+  color: var(--black);
+}
+.article--main--atom__a p {
+  margin: 0.5rem 0;
+}
+.article--main--atom__a h2 {
+  font-size: 2rem;
+  line-height: 1.384;
+  font-weight: 400;
+  margin: 0;
+}
+.article--main--atom__b {
+  font-size: .8125rem;
+  color: var(--mid-gray);
+}
+.article--main--atom__b ul {
+  display: flex;
+  text-transform: uppercase;
+  list-style-type: none;
+  gap: .25rem;
+  padding-left: 0;
+}
+
+
