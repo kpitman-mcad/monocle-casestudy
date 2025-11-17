@@ -34,10 +34,6 @@ body {
   line-height: 1.444;
   font-variant-numeric: oldstyle-nums;
 }
-h3 {
-  /* font-size: 1.25rem;
-  line-height: 1.25; */
-}
 img {
   max-width: 100%;
   display: block;
@@ -111,7 +107,7 @@ img {
   justify-content: center;
   padding: 0;
   gap: .5rem;
-  font-size: 1rem;
+  font-size: .9rem;
   margin: 0;
 }
 .component--nav__list a {
@@ -323,4 +319,72 @@ img {
 /**
 * Header
 **/
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+.header--atoms {
+  display: flex;
+}
+.header--atom__a {
+  max-width: 12rem;
+  margin: 0.625rem 0;
+}
+.header--atom__a p {
+  margin: 0;
+}
+.header--atom__a img {
+  width: 60%;
+}
+.header img {
+  max-width: 44rem;
+}
+.header--atom__c {
+  max-width: 12rem;
+  margin: 0.625rem 0;
+  text-align: right;
+}
+.header--atom__c p {
+  margin: 0;
+}
+.header--atom__c img {
+  width: 65%;
+  margin-left: auto;
+}
 
+/**
+* Nav
+**/
+.nav--atom {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  text-transform: uppercase;
+  text-align: center;
+  font-family: serif;
+  border-top: 1px solid var(--black);
+  border-bottom: 1px solid var(--black);
+  justify-content: center;
+  color: var(--black);
+  gap: 0.5rem;
+  }
+.nav--atom {
+  padding: .625rem;
+  margin: 0;
+  padding-left: 0;
+}
+.nav--atom a {
+  text-decoration: none;
+  color: var(--black);
+  font-weight: 600;
+  font-size: 1rem;
+  padding: 0;
+  }
+.nav--atom a:hover {
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  }
+
+/**
+* Article
+**/
