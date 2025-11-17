@@ -102,7 +102,7 @@ img {
   margin: 0;
   padding: 0.75rem 0;
   position: sticky;
-  top: 3.2rem;
+  top: 3.7rem;
 }
 .component--nav__list {
   display: flex;
@@ -216,9 +216,11 @@ img {
 /**
 * Banner
 **/
-.component--code__banner {
+.banner {
   display: flex;
-  gap: 1rem;
+  justify-content: space-between;
+  border-bottom: 1px solid var(--black);
+  padding: 0.85rem;
 }
 .banner--navigation--atom__a {
   color: var(--black);
@@ -235,7 +237,7 @@ img {
 .banner--navigation--atom__b ul {
   list-style-type: none;
   display: flex;
-  margin: 0 1rem;
+  margin: 0;
   gap: .5rem;
   padding-left: 0;
 }
@@ -269,6 +271,7 @@ img {
   color: var(--black);
   font-size: .8125rem;
   font-weight: 700;
+  margin: 0 0.375rem;
 }
 .banner--utility--atom__b a:hover {
   text-decoration: underline;
@@ -307,4 +310,17 @@ img {
 .banner--utility--atom__e a:hover {
   color: var(--mid-gray);  
 }
+.banner--navigation {
+  display: flex;
+  gap: 0.5rem;
+  justify-content: flex-start;
+}
+.banner--utility {
+  display: flex;
+  gap: 0.5rem;
+}
+
+/**
+* Header
+**/
 
