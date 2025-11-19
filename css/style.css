@@ -433,9 +433,6 @@ img {
   background-color: var(--mid-light-gray);
   padding: 1rem;
   border-radius: 0.5rem;
-
-  max-width: 19rem;
-
 }
 .article--opinion--atoms {
   display: grid;
@@ -488,7 +485,52 @@ img {
 /**
 * Article Card
 **/
+.article--card {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
 
+  max-width: 20rem;
+
+}
+.article--card--atoms {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.article--card--atom__a img{
+  max-width: 80%;
+  margin: auto;
+}
+.article--card__category {
+  text-transform: uppercase;
+  font-size: 0.8125rem;
+  line-height: 1.384;
+}
+.article--card--atom__a h3 {
+  margin: 0.5rem 0 0 0;
+  line-height: 1.25;
+}
+.article--card--atom__a a{
+  text-decoration: none;
+  color: var(--black);
+  font-size: 1.25rem;
+  line-height: 1.25;
+  font-weight: 400;
+}
+.article--card--atom__b {
+  font-size: .8125rem;
+  color: var(--mid-gray);
+  margin: 3rem 0 0 0;  
+}
+.article--card--atom__b ul {
+  display: flex;
+  text-transform: uppercase;
+  list-style-type: none;
+  line-height: 1.384;
+  gap: .25rem;
+  padding-left: 0;
+  margin: 0;
+}
 
 
 
