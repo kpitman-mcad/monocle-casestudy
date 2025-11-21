@@ -684,6 +684,7 @@ img {
   font-size: 0.875rem;
   font-weight: 200;
   margin: 0;
+  color: var(--mid-light-gray);
 }
 .article--radio-widget--atom__c {
   margin: 1.5rem 0;
@@ -749,7 +750,7 @@ img {
 }
 .radio--card--atoms {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   gap: 1rem;
   position: relative;
 }
@@ -925,4 +926,108 @@ img {
   margin: 0;
 }
 
+/**
+* Columnists Card
+**/
+.columnist--card {
+  display: flex;
+  flex-direction: column;
+  max-width: 20rem;
+}
+.columnist--card--atoms {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+.columnist--card--atom__a {
+  border-bottom: 1px solid var(--black);
+}
+.columnist--card--atom__a img {
+  margin: auto;
+  max-height: 11.5rem;
+}
+.columnist--card--atom__b h3{
+  font-size: 1.25rem;
+  line-height: 1.25;
+  margin: 0.5rem 0;
+}
+.columnist--card--atom__b a {
+  text-decoration: none;
+  font-weight: 400;
+  color: var(--black); 
+}
+.columnist--card--atom__b a:hover {
+  text-decoration: underline;
+}
+.columnist--card--atom__b p {
+  font-family: var(--font-sans-serif);
+  font-size: 1rem;
+  font-weight: 320;
+  line-height: 1.125;
+  color: var(--mid-gray);
+  margin: 0;
+}
 
+/**
+* Columnists Carousel
+**/
+.columnists {
+  padding: 2rem 0 0 0;
+  margin: 0;
+  overflow: hidden;
+}
+.columnists--header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.75rem 0;
+  border-top: 4px solid var(--black);
+}
+.columnists--header a {
+  font-family: var(--font-sans-serif);
+  color: var(--black);
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 0.875rem;
+  font-weight: 700;
+}
+.columnists--carousel__ul {
+  list-style-type: none;
+  display: flex;
+  gap: 1rem;
+  padding: 0;
+  margin: 0;
+}
+.columnists--carousel--style {
+  width: 1px;
+  height: 100%;
+  background-color: var(--black);
+  margin: 0;
+}
+
+/**
+* Columnists Card
+**/
+.travel--card--atoms {
+  background-color: var(--light-blue);
+  border-radius: 0.5rem;
+  padding: 1rem;
+}
+.travel--card--atom__a {
+  border-bottom: 1px solid var(--black);
+}
+.travel--card--atom__b {
+
+}
+
+
+
+/**
+* testing
+**/
+/* .columnist--card {
+  background-color: lightgreen;  
+}
+.columnists {
+  background-color: blue;  
+} */
