@@ -230,10 +230,10 @@ img {
   border: none;
 }
 .banner--navigation--atom__a a {
-  color: var(--black); 
+  color: var(--black);
 }
 .banner--navigation--atom__a a:hover {
-  color: var(--mid-gray);  
+  color: var(--mid-gray);
 }
 .banner--navigation--atom__b ul {
   list-style-type: none;
@@ -260,10 +260,10 @@ img {
   border: none;
 }
 .banner--utility--atom__a a {
-  color: var(--black); 
+  color: var(--black);
 }
 .banner--utility--atom__a a:hover {
-  color: var(--mid-gray);  
+  color: var(--mid-gray);
 }
 .banner--utility--atom__b a {
   font-family: var(--font-sans-serif);
@@ -294,10 +294,10 @@ img {
   border: none;
 }
 .banner--utility--atom__d a {
-  color: var(--black); 
+  color: var(--black);
 }
 .banner--utility--atom__d a:hover {
-  color: var(--mid-gray);  
+  color: var(--mid-gray);
 }
 .banner--utility--atom__e {
   color: var(--black);
@@ -306,10 +306,10 @@ img {
   border: none;
 }
 .banner--utility--atom__e a {
-  color: var(--black); 
+  color: var(--black);
 }
 .banner--utility--atom__e a:hover {
-  color: var(--mid-gray);  
+  color: var(--mid-gray);
 }
 .banner--navigation {
   display: flex;
@@ -608,7 +608,7 @@ img {
 .article--radio-widget--atoms {
   color: var(--white);
   display: flex;
-  align-items: center;    
+  align-items: center;
   gap: 1rem;
 }
 .article--radio-widget__onair {
@@ -742,7 +742,7 @@ img {
   padding: 0;
   justify-content: space-between;
   min-height: 24rem;
-  max-width: 18rem;
+  max-width: 20rem;
   background-color: var(--dark-gray);
   position: relative;
 }
@@ -809,5 +809,41 @@ img {
   top: 10px;
 }
 
+/**
+* Radio Carousel
+**/
+.radio {
+  background-color: var(--dark-gray);
+  padding: 2rem 0;
+  overflow: hidden;
+}
+.radio--header {
+  display: flex;
+  color: var(--white);
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.75rem 0;
+  border-top: 4px solid var(--white);
+}
+.radio--header a {
+  font-family: var(--font-sans-serif);
+  color: var(--white);
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 0.875rem;
+  font-weight: 700;
+}
+.radio ul {
+  list-style-type: none;
+  display: flex;
+  gap: 1rem;
+  padding: 0;
+}
+.carousel--style {
+  width: 1px;
+  height: 100%;
+  background-color: var(--white);
+  margin: 0;
+}
 
 
