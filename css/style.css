@@ -146,6 +146,8 @@ img {
 /**
 * Component Articles
 **/
+.component--article {
+}
 .component--article__h3 {
   font-size: 1.25rem;
   line-height: 1.25;
@@ -155,12 +157,15 @@ img {
 .component--img {
   display: flex;
   align-items: center;
-  /* flex-wrap: nowrap; */
   gap: 1rem;
+  background-color: var(--light-yellow);
 }
 .component--img img{
-  border: 1px solid var(--light-blue);
-  padding: 1rem;
+  border: 1px solid var(--mid-light-gray);
+  padding: 0;
+  margin: 1rem;
+  overflow: auto;
+  max-height: 50rem;
 }
 .component--img__subtitle {
   margin: 0;
@@ -1188,6 +1193,28 @@ img {
   padding: 0;
   margin: 0; 
 }
+
+/**
+* Shopping Card
+**/
+.shopping--card {
+
+
+}
+.shopping--card--atoms {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+.shopping--card--atom__a {
+  max-width: 25rem;
+}
+.shopping--card--atom__b {
+  max-width: 25rem;
+}
+
+
+
 
 
 /**
