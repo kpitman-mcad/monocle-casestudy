@@ -155,7 +155,7 @@ img {
 .component--img {
   display: flex;
   align-items: center;
-  flex-wrap: wrap;
+  /* flex-wrap: nowrap; */
   gap: 1rem;
 }
 .component--img img{
@@ -844,6 +844,7 @@ img {
   display: flex;
   gap: 1rem;
   padding: 0;
+  margin: 0;
 }
 .radio--carousel--style {
   width: 1px;
@@ -855,7 +856,6 @@ img {
 /**
 * Featured Card
 **/
-
 .featured--card {
   display: flex;
   flex-direction: column;
@@ -1105,13 +1105,91 @@ img {
   margin: 0;
 }
 
+/**
+* Category Card
+**/
+.category--card {
+  display: flex;
+  flex-direction: column;
+  /* max-width: 22rem; */
+  min-height: 36rem;
+  justify-content: flex-start;
+}
+.category--card--atoms {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1rem;
+}
+.category--card--header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.75rem 0;
+  border-top: 4px solid var(--black);
+  max-height: 6rem;
+}
+.category--card--header a {
+  font-family: var(--font-sans-serif);
+  color: var(--black);
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 0.875rem;
+  font-weight: 700;
+  display: inline-flex;
+  height: 2.75rem;
+  align-items: center;
+}
+.category--card--atom__a img {
+  margin: auto;
+  object-fit: cover;
+  /* height: 100%; */
+}
+.category--card--atom__a h3 {
+  font-family: var(--font-serif);
+  font-size: 1.25rem;
+  line-height: 1.25;
+  font-weight: 400;
+  margin: 1rem 0 0.5rem 0;
+}
+.category--card--atom__a a {
+  text-decoration: none;
+  font-weight: 400;
+  color: var(--black);
+}
+.category--card--atom__a a:hover {
+  text-decoration: underline;
+}
+.category--card--atom__a p {
+  margin: 0;  
+}
+.category--card--atom__b {
+  font-size: .8125rem;
+  color: var(--mid-gray);
+}
+.category--card--atom__b ul {
+  display: flex;
+  text-transform: uppercase;
+  list-style-type: none;
+  gap: .25rem;
+  padding-left: 0;
+  margin: 1.5rem 0 0 0;
+}
+
+/**
+* Category Carousel
+**/
+.categories {
+  margin: 2rem 0 0 0;
+}
+.category--carousel__ul {
+  list-style-type: none;
+  display: flex;
+  gap: 1rem;
+  padding: 0;
+  margin: 0; 
+}
+
 
 /**
 * testing
 **/
-/* .columnist--card {
-  background-color: lightgreen;  
-}
-.columnists {
-  background-color: blue;  
-} */
