@@ -1111,7 +1111,7 @@ img {
 .category--card {
   display: flex;
   flex-direction: column;
-  /* max-width: 22rem; */
+  max-width: 30rem;
   min-height: 36rem;
   justify-content: flex-start;
 }
