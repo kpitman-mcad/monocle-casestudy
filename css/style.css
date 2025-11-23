@@ -15,6 +15,7 @@ html {
   --light-yellow: #fdfbe4;
   --dark-gray: #2a2929;
   --mid-gray: #6e6e6e;
+  --footer-light-gray: #b3b3b3;
   --yellow: #ffc500;
   --light-blue: #64d5ff;
   --mid-light-gray: #e7e7e7;
@@ -910,7 +911,7 @@ img {
   text-decoration: underline;
 }
 .featured--card--atom__a p {
-  margin: 0;  
+  margin: 0;
 }
 .featured--card--atom__b {
   font-size: .8125rem;
@@ -980,7 +981,7 @@ img {
 .columnist--card--atom__b a {
   text-decoration: none;
   font-weight: 400;
-  color: var(--black); 
+  color: var(--black);
 }
 .columnist--card--atom__b a:hover {
   text-decoration: underline;
@@ -1057,10 +1058,15 @@ img {
   line-height: 1.125;
   max-height: 2rem;
   max-width: 20rem;
+  background-color: var(--light-blue);
 }
 .travel--card--atom__a p {
   padding: 0 0 0.25rem 0;
-  margin: 0;  
+  margin: 0;
+}
+.travel--card--atom__b {
+  max-width: 20rem;
+  background-color: var(--light-blue);
 }
 .travel--card--atom__b-hover {
   overflow: hidden;
@@ -1070,7 +1076,7 @@ img {
   font-size: 1.5rem;
   line-height: 1.25;
   font-weight: 700;
-  margin: 0.5rem 0 0 0;  
+  margin: 0.5rem 0 0 0;
 }
 .travel--card--atom__b a {
   text-decoration: none;
@@ -1078,7 +1084,7 @@ img {
   color: var(--black);
 }
 .travel--card--atom__b a:hover {
-  text-decoration: underline;  
+  text-decoration: underline;
 }
 .travel--card--atom__b img {
   margin: 0;
@@ -1183,7 +1189,7 @@ img {
   text-decoration: underline;
 }
 .category--card--atom__a p {
-  margin: 0;  
+  margin: 0;
 }
 .category--card--atom__b {
   font-size: .8125rem;
@@ -1209,7 +1215,7 @@ img {
   display: flex;
   gap: 1rem;
   padding: 0;
-  margin: 0; 
+  margin: 0;
 }
 
 /**
@@ -1436,7 +1442,7 @@ img {
 }
 .events--block--atom__b-text p {
   font-size: 1.125rem;
-  margin: 0;  
+  margin: 0;
 }
 .events--block--atom__b img {
   margin: auto;
@@ -1511,10 +1517,10 @@ img {
   margin: 0;
 }
 .newsletter--signup--atom__a p {
-  margin: 0;  
+  margin: 0;
 }
 .newsletter--signup--atom__b {
-  align-self: center;  
+  align-self: center;
 }
 .newsletter--signup--atom__b input {
   height: 40px;
@@ -1544,17 +1550,142 @@ img {
   color: var(--black);
   padding: .75rem 1rem;
 }
+.newsletter--signup--atom__c a:hover {
+  background-color: var(--black);
+  text-decoration: underline;
+  color: var(--white);
+}
 
 /**
 * Footer Block
 **/
 
-
-
-
-
-
-
-/**
-* testing
-**/
+.footer__style {
+  background-color: var(--black);
+  padding-bottom: 2rem;
+}
+.footer {
+  display: flex;
+  padding: 2.5rem 0;
+  gap: 1.5rem;
+  border-bottom: 1px solid var(--mid-gray);
+}
+.footer--atoms {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 1rem;
+}
+.footer--brand {
+  background-color: var(--black);
+  display: flex;
+  flex-direction: column;
+  min-width: 17.5rem;
+  justify-content: space-between;
+  gap: 2rem;
+}
+.footer--brand--margin {
+  margin-right: 1rem;
+}
+.footer--brand--molecule__a {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1.5rem;
+}
+.footer--brand--molecule__b {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 1rem;
+}
+.footer--brand--atom__a {
+  background-color: var(--black);
+}
+.footer--brand--atom__a a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: var(--white);
+  font-size: 2.5rem;
+  line-height: 1;
+}
+.footer--brand--atom__a p {
+  color: var(--white);
+  margin: 0;
+  font-size: 1.25rem;
+  line-height: 2;
+}
+.footer--brand--atom__b a {
+  background-color: var(--yellow);
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: var(--font-sans-serif);
+  font-weight: 700;
+  font-size: 0.8125rem;
+  color: var(--black);
+  padding: 1rem;
+  border: 1px solid transparent;
+}
+.footer--brand--atom__b a:hover {
+  text-decoration: underline;
+}
+.footer--brand--atom__c a {
+  background-color: var(--black);
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: var(--font-sans-serif);
+  font-weight: 700;
+  font-size: 0.8125rem;
+  color: var(--white);
+  padding: 1rem 2rem;
+  border: 1px solid var(--white);
+}
+.footer--brand--atom__c a:hover {
+  text-decoration: underline;
+  border: 3px solid var(--white);
+}
+.footer--brand--atom__d p {
+  color: var(--footer-light-gray);
+  line-height: 1.5;
+  text-transform: uppercase;
+  font-size: 1.25rem;
+  margin: 0;
+  opacity: 0.9;
+}
+.footer--nav {
+  background-color: var(--black);
+  display: flex;
+  gap: 2rem;
+}
+.footer--nav--atom {
+  background-color: var(--black);
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  gap: 0.5rem
+}
+.footer--nav--atom h4 {
+  font-family: var(--font-sans-serif);
+  text-transform: uppercase;
+  color: var(--white);
+  margin: 0;
+  font-size: 1rem;
+}
+.footer--nav--atom ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+.footer--nav--atom ul a {
+  font-family: var(--font-sans-serif);
+  color: var(--footer-light-gray);
+  text-decoration: none;
+  font-size: .95rem;
+  line-height: 2;
+  font-weight: 400;
+}
