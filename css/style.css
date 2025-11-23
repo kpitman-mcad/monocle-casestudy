@@ -412,7 +412,6 @@ img {
   position: sticky;
   top: 7.5rem;
   z-index: -1;
-
 }
 .article--main--atoms {
   display: grid;
@@ -1377,11 +1376,59 @@ img {
   margin: 0;
 }
 
+/**
+* Events Block
+**/
+.events--block {
+
+}
+.events--block--atoms {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1rem;
+}
+.events--block--atom__a {
+  font-size: 2rem;
+  line-height: 1;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-align: center;
+}
+.events--block--atom__a h3 {
+  font-weight: 400;
+}
+.events--block--atom__b {
+  display: flex;
+  align-items: center;
+  flex: 0 0 auto;
+  min-width: 50rem;
+}
+.events--block--atom__b-text {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  flex-basis: 100%;
+  font-size: 1.5rem;
+}
+.events--block--atom__b-text a {
+  text-decoration: none;
+  color: var(--black);
+  font-weight: 400;
+}
+.events--block--atom__b-text a:hover {
+  text-decoration: underline;
+}
+.events--block--atom__b img {
+  margin: auto;
+  max-width: 300px;
+  object-fit: cover;
+  aspect-ratio: 4/3;
+}
 
 
-
-
-
+.events--block--atom__c {
+  
+}
 
 /**
 * testing
