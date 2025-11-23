@@ -166,11 +166,11 @@ img {
   align-items: center;
   gap: 1rem;
   background-color: var(--light-yellow);
+  padding: 1rem;
 }
 .component--img img{
   border: 1px solid var(--mid-light-gray);
   padding: 0;
-  margin: 1rem;
   overflow: auto;
   max-height: 50rem;
 }
@@ -1544,6 +1544,14 @@ img {
   color: var(--black);
   padding: .75rem 1rem;
 }
+
+/**
+* Footer Block
+**/
+
+
+
+
 
 
 
