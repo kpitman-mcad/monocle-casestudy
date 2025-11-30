@@ -219,6 +219,39 @@ img {
 }
 
 /**
+* Homepage Recreation
+**/
+.home--page--banner__sticky {
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
+.home--page--nav__sticky {
+  position: sticky;
+  top: 3.7rem;
+  /* overflow: auto; */
+  z-index: 1;
+}
+.home--page--body {
+  padding: 0 1rem;
+  margin: 0;
+  max-width: 82rem;
+  margin: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**
 * Typography
 **/
 .component--code__body {
@@ -256,8 +289,15 @@ img {
 .banner {
   display: flex;
   justify-content: space-between;
+  background-color: var(--white);
   border-bottom: 1px solid var(--black);
-  padding: 0.85rem;
+  padding: 0.85rem 0;
+}
+.banner--navigation {
+  display: flex;
+  gap: 0.5rem;
+  justify-content: flex-start;
+  align-items: center;
 }
 .banner--navigation--atom__a {
   color: var(--black);
@@ -288,6 +328,11 @@ img {
 }
 .banner--navigation--atom__b a:hover {
   text-decoration: underline;
+}
+.banner--utility {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
 }
 .banner--utility--atom__a {
   color: var(--black);
@@ -347,15 +392,6 @@ img {
 .banner--utility--atom__e a:hover {
   color: var(--mid-gray);
 }
-.banner--navigation {
-  display: flex;
-  gap: 0.5rem;
-  justify-content: flex-start;
-}
-.banner--utility {
-  display: flex;
-  gap: 0.5rem;
-}
 
 /**
 * Header
@@ -396,6 +432,9 @@ img {
 /**
 * Nav
 **/
+.nav {
+  background-color: var(--white);
+}
 .nav--atom {
   display: flex;
   flex-wrap: wrap;

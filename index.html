@@ -2,17 +2,351 @@
 <html lang="en">
 <head>
     <!-- Kevin Pitman, MCAD, Web Development Fall 25, Design System Study-->
+    <!-- Monocle Homepage Recreation -->
     <!-- All images and text are sourced from the Monocle.com website, and are used here expressly for educational purposes. Monocle holds all copyrights. -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://use.typekit.net/oed5cpk.css">
+    <!-- Font Awesome javascript-->
+    <script src="https://kit.fontawesome.com/034340125c.js" crossorigin="anonymous"></script>
     <link href="css/style.css" rel="stylesheet">
     <link href="css/normalize.css" rel="stylesheet">
     <title>Home | Monocle</title>
 </head>
-<body>
-    
-    <h1>Home Page Goes Here Eventually</h1>
+<body class="home--page">
+    <div class="home--page--body">
+        <div class="banner home--page--banner__sticky">
+            <div class="banner--navigation">
+                <div class="banner--navigation--atom__a">
+                    <a href="#!"><i class="fa-solid fa-bars"></i></a>
+                </div>
+                <div class="banner--navigation--atom__b">
+                    <ul>
+                        <li><a href="#!">Magazine</a></li>
+                        <li><a href="#!">Radio</a></li>
+                        <li><a href="#!">shop</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="banner--utility">
+                <div class="banner--utility--atom__a">
+                    <a href="#!"><i class="fa-solid fa-magnifying-glass"></i></a>
+                </div>                      
+                <div class="banner--utility--atom__b">
+                    <a href="#!">Log In</a>
+                </div>
+                <div class="banner--utility--atom__c">
+                    <a href="#!">Subscribe</a>
+                </div>
+                <div class="banner--utility--atom__d">
+                    <a href="#!"><i class="fa-solid fa-bag-shopping"></i></a>
+                </div>
+                <div class="banner--utility--atom__e">
+                    <a href="#!"><i class="fa-solid fa-comment-dollar"></i></a>
+                </div>
+            </div>
+        </div>
+        <header class="header">                   
+            <div class="header--atom__a">
+                <img src="img/header--currently--edited.webp" alt="This image is property of Monocle">
+                <p>
+                    Currently being edited in London
+                </p>
+            </div>
+            <img src="img/monocle-title.svg" alt="This image is property of Monocle">
+            <div class="header--atom__c">
+                <img src="img/header--illustration.webp" alt="This image is property of Monocle">                            <p>
+                    Daily inbox intelligence from Monocle
+                </p>
+            </div>
+        </header>
+        <nav class="nav home--page--nav__sticky">                   
+            <ul class="nav--atom">
+                <li><a href="@!">Affairs</a></li>
+                <li>&#124;</li>
+                <li><a href="@!">Business</a></li>
+                <li>&#124;</li>
+                <li><a href="@!">Culture</a></li>
+                <li>&#124;</li>
+                <li><a href="@!">Design</a></li>
+                <li>&#124;</li>
+                <li><a href="@!">Fashion</a></li>
+                <li>&#124;</li>
+                <li><a href="@!">Travel</a></li>
+                <li>&#124;</li>
+                <li><a href="@!">City Guides</a></li>
+            </ul>
+        </nav>
+        <main class="home--page--main">
+            <div class="articles--grid">
+                <div class="articles--grid__column1-2">
+                    <div class="article--main">
+                        <div class="article--main--atom__a">
+                            <a href="#!">Hospitality</a>
+                            <h2>Designer Harry Thaler's breathtaking Dolomites farmhouse transformation</h2>
+                            <p>
+                                Having converted their centuries old farmhouse at the gateway to the Dolomites into a guesthouse with five apartments, Christa and Andreas Klotzner called in designer Harry Thaler to supply some final touches.
+                            </p>
+                        </div>
+                        <div class="article--main--atom__b">
+                            <ul>
+                                <li><i class="fa-solid fa-book-open"></i></li>
+                                <li>Issue #188</li>
+                                <li>&#124;</li>
+                                <li>5 min read</li>
+                            </ul>
+                            <img src="img/article--main--img.jpg" alt="This image is property of Monocle">
+                        </div>
+                    </div>
+                </div>
+                <div class="articles--grid__column3">
+                    <div class="articles--grid__style">
+                        <div class="article--card">
+                            <div class="article--card--atom__a">
+                                <img src="img/article--card--illustration.jpg" alt="This image is property of Monocle">
+                                <p class="article--card__category">The Weekend Opener</p>
+                                <h3><a href="#!">Want to sharpen your pen? Learn from a master of the lens</a></h3>                            
+                            </div>
+                            <div class="article--card--atom__b">
+                                <ul>
+                                    <li><i class="fa-solid fa-book-open"></i></li>
+                                    <li>&#124;</li>
+                                    <li>4 min read</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="articles--grid__style">
+                        <div class="article--opinion">
+                            <div class="article--opinion--atom__a">
+                                <p class="article--opinion__category">Opinion</p>
+                                <img src="img/fernando-augusto-pacheco.jpg" alt="This image is property of Monocle">
+                            </div>
+                            <div class="article--opinion--atom__b">
+                                <p class="article--opinion__author-name">Fernando Augusto Pacheco</p>
+                                <p class="article--opinion__author-title"><em>Senior correspondent</em></p>
+                                <h3><a href="#!">Despite big-name dignitaries, Belem's brega divas will be the stars of Cop30</a></h3>
+                                <p class="article--opinion__time">5 min read</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="articles--grid__style">
+                        <div class="article--card">
+                            <div class="article--card--atom__a">
+                                <img src="img/article--card--illustration.jpg" alt="This image is property of Monocle">
+                                <p class="article--card__category">The Weekend Opener</p>
+                                <h3><a href="#!">Want to sharpen your pen? Learn from a master of the lens</a></h3>                            
+                            </div>
+                            <div class="article--card--atom__b">
+                                <ul>
+                                    <li><i class="fa-solid fa-book-open"></i></li>
+                                    <li>&#124;</li>
+                                    <li>4 min read</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>        
+                        <div class="article--opinion">
+                            <div class="article--opinion--atom__a">
+                                <p class="article--opinion__category">Opinion</p>
+                                <img src="img/fernando-augusto-pacheco.jpg" alt="This image is property of Monocle">
+                            </div>
+                            <div class="article--opinion--atom__b">
+                                <p class="article--opinion__author-name">Fernando Augusto Pacheco</p>
+                                <p class="article--opinion__author-title"><em>Senior correspondent</em></p>
+                                <h3><a href="#!">Despite big-name dignitaries, Belem's brega divas will be the stars of Cop30</a></h3>
+                                <p class="article--opinion__time">5 min read</p>
+                            </div>
+                        </div>
+                </div>
+                <div class="articles--grid__column4">
+                    <div class="articles--grid__style">
+                        <div class="article--radio-widget">
+                            <h3>Monocle radio</h3>
+                            <div class="article--radio-widget--atom__a">
+                                    <p class="article--radio-widget__onair">On air iii</p>
+                                    <h3>Global Music</h3>
+                                    <div class="article--radio-widget__listen">
+                                        <span>&#9654;</span><a href="#!">Listen Live</a>
+                                    </div>
+                                    <div class="article--radio-widget__sponsor">
+                                        <p>Sponsored by</p>
+                                        <img src="img/UBS.jpg" alt="This image is property of Monocle">
+                                    </div>
+                            </div>
+                            <div class="article--radio-widget--atom__b article--radio-widget--atom__style">
+                                <img src="img/MONOCLE-RADIO-IMG.jpg" alt="This image is property of Monocle">
+                                <div>
+                                    <h4>Top of the Hour</h4>
+                                    <p>Headlines as they happen</p>
+                                </div>
+                            </div>
+                            <div class="article--radio-widget--atom__b">
+                                    <img src="img/MEET-THE-WRITERS.jpg" alt="This image is property of Monocle">
+                                    <div>
+                                        <h4>Meet the Writers</h4>
+                                        <p>Georgina Godwin chats to your favourite authors</p>
+                                    </div>
+                            </div>
+                            <div class="article--radio-widget--atom__c">
+                                <a href="#!">View full programme</a>
+                            </div>
+                            <img src="img/CHANEL.jpg" alt="This image is property of Monocle">
+                        </div>
+                    </div>
+                    <div class="articles--grid__style">
+                        <div class="article--card">
+                            <div class="article--card--atom__a">
+                                <img src="img/article--card--illustration.jpg" alt="This image is property of Monocle">
+                                <p class="article--card__category">The Weekend Opener</p>
+                                <h3><a href="#!">Want to sharpen your pen? Learn from a master of the lens</a></h3>                            
+                            </div>
+                            <div class="article--card--atom__b">
+                                <ul>
+                                    <li><i class="fa-solid fa-book-open"></i></li>
+                                    <li>&#124;</li>
+                                    <li>4 min read</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="articles--grid__style">
+                        <div class="article--card">
+                            <div class="article--card--atom__a">
+                                <img src="img/article--card--illustration.jpg" alt="This image is property of Monocle">
+                                <p class="article--card__category">The Weekend Opener</p>
+                                <h3><a href="#!">Want to sharpen your pen? Learn from a master of the lens</a></h3>                            
+                            </div>
+                            <div class="article--card--atom__b">
+                                <ul>
+                                    <li><i class="fa-solid fa-book-open"></i></li>
+                                    <li>&#124;</li>
+                                    <li>4 min read</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="article--item">
+                        <div class="article--item--atom__a">
+                            <p class="article--item__category">Government</p>
+                            <h3><a href="#!">How Dick Cheney made vice-president dangerous</a></h3>                            
+                        </div>
+                        <div class="article--item--atom__b">
+                            <ul>
+                                <li><i class="fa-solid fa-book-open"></i></li>
+                                <li>&#124;</li>
+                                <li>5 min read</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="radio">
+                <div class="radio--header">
+                    <h2 class="component--main__h2">Latest from Monocle radio</h2>
+                    <a href="#!">See all</a>
+                </div>
+                <ul>
+                    <li>
+                        <div class="radio--card">
+                            <div class="radio--card--atom__a">
+                                <img src="img/©-GettyImages-Safal-Prakash-Shrestha-NurPhoto-2243382151_CROP.webp" alt="This image is property of Monocle">
+                                <p class="radio--card__category">Affairs</p>
+                                <h3><a href="#!">Are the world's Gen Z protests different?</a></h3>                            
+                            </div>
+                            <div class="radio--card--atom__b">
+                                <ul>
+                                    <li><i class="fa-solid fa-microphone"></i></li>
+                                    <li>The Foreign Desk</li>
+                                    <li>&#124;</li>
+                                    <li>30 min</li>
+                                </ul>                         
+                            </div>
+                            <div class="radio--card--atom__c">
+                                <i class="fa-solid fa-volume-high"></i>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="radio--carousel--style"></div>
+                    </li>
+                    <li>
+                        <div class="radio--card">
+                            <div class="radio--card--atom__a">
+                                <img src="img/©-GettyImages-Safal-Prakash-Shrestha-NurPhoto-2243382151_CROP.webp" alt="This image is property of Monocle">
+                                <p class="radio--card__category">Affairs</p>
+                                <h3><a href="#!">Are the world's Gen Z protests different?</a></h3>                            
+                            </div>
+                            <div class="radio--card--atom__b">
+                                <ul>
+                                    <li><i class="fa-solid fa-microphone"></i></li>
+                                    <li>The Foreign Desk</li>
+                                    <li>&#124;</li>
+                                    <li>30 min</li>
+                                </ul>                         
+                            </div>
+                            <div class="radio--card--atom__c">
+                                <i class="fa-solid fa-volume-high"></i>
+                            </div>
+                        </div>                                
+                    </li>
+                    <li>
+                        <div class="radio--carousel--style"></div>
+                    </li>                           
+                    <li>
+                        <div class="radio--card">
+                            <div class="radio--card--atom__a">
+                                <img src="img/©-GettyImages-Safal-Prakash-Shrestha-NurPhoto-2243382151_CROP.webp" alt="This image is property of Monocle">
+                                <p class="radio--card__category">Affairs</p>
+                                <h3><a href="#!">Are the world's Gen Z protests different?</a></h3>                            
+                            </div>
+                            <div class="radio--card--atom__b">
+                                <ul>
+                                    <li><i class="fa-solid fa-microphone"></i></li>
+                                    <li>The Foreign Desk</li>
+                                    <li>&#124;</li>
+                                    <li>30 min</li>
+                                </ul>                         
+                            </div>
+                            <div class="radio--card--atom__c">
+                                <i class="fa-solid fa-volume-high"></i>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="radio--carousel--style"></div>
+                    </li>
+                    <li>
+                        <div class="radio--card">
+                            <div class="radio--card--atom__a">
+                                <img src="img/©-GettyImages-Safal-Prakash-Shrestha-NurPhoto-2243382151_CROP.webp" alt="This image is property of Monocle">
+                                <p class="radio--card__category">Affairs</p>
+                                <h3><a href="#!">Are the world's Gen Z protests different?</a></h3>                            
+                            </div>
+                            <div class="radio--card--atom__b">
+                                <ul>
+                                    <li><i class="fa-solid fa-microphone"></i></li>
+                                    <li>The Foreign Desk</li>
+                                    <li>&#124;</li>
+                                    <li>30 min</li>
+                                </ul>                         
+                            </div>
+                            <div class="radio--card--atom__c">
+                                <i class="fa-solid fa-volume-high"></i>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
 
+
+
+
+
+            
+        </main>
+    </div>
+    <footer>
+    </footer>
 </body>
 </html>
