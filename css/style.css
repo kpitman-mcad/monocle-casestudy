@@ -270,11 +270,16 @@ img {
   max-width: 82rem;
   margin: auto;
 }
-
-
-
-
-
+.events--style {
+  padding: 0 1rem;
+  max-width: 82rem;
+  margin: auto;
+}
+.newsletter--style {
+  padding: 0 1rem;
+  max-width: 82rem;
+  margin: auto;
+}
 
 /**
 * Typography
@@ -1575,6 +1580,7 @@ img {
 .newsletter {
   display: flex;
   padding: 0.625rem 5rem;
+  margin: 2rem 0 0 0;
   background-color: var(--light-yellow);
 }
 .newsletter img {
@@ -1649,16 +1655,17 @@ img {
 /**
 * Footer Block
 **/
-
-.footer__style {
+.footer--organism--style {
   background-color: var(--black);
-  padding-bottom: 2rem;
+  padding-bottom: 2rem;  
 }
 .footer {
   display: flex;
-  padding: 2.5rem 0;
+  padding: 2.5rem 1rem;
   gap: 1.5rem;
   border-bottom: 1px solid var(--mid-gray);
+  max-width: 82rem;
+  margin: 2rem auto 1rem;
 }
 .footer--atoms {
   display: grid;
