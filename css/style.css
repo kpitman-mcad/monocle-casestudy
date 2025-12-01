@@ -232,19 +232,44 @@ img {
   /* overflow: auto; */
   z-index: 1;
 }
-.home--page--body {
+.home--page--style {
   padding: 0 1rem;
-  margin: 0;
   max-width: 82rem;
   margin: auto;
 }
-
-
-
-
-
-
-
+.radio--style {
+  background-color: var(--dark-gray);
+}
+.featured--style {
+  padding: 0 1rem;
+  max-width: 82rem;
+  margin: auto;
+}
+.columnists--style {
+  padding: 0 1rem;
+  max-width: 82rem;
+  margin: auto;
+}
+.travel--style {
+  padding: 0 1rem;
+  max-width: 82rem;
+  margin: auto;
+}
+.categories--style {
+  padding: 0 1rem;
+  max-width: 82rem;
+  margin: auto;
+}
+.shopping--style {
+  padding: 0 1rem;
+  max-width: 82rem;
+  margin: auto;
+}
+.partner--style {
+  padding: 0 1rem;
+  max-width: 82rem;
+  margin: auto;
+}
 
 
 
@@ -899,8 +924,10 @@ img {
 **/
 .radio {
   background-color: var(--dark-gray);
-  padding: 2rem 0;
   overflow: hidden;
+  padding: 2rem 1rem;
+  max-width: 82rem;
+  margin: auto;
 }
 .radio--header {
   display: flex;
@@ -1276,7 +1303,7 @@ img {
 .category--carousel__ul {
   list-style-type: none;
   display: flex;
-  gap: 1rem;
+  gap: 1.5rem;
   padding: 0;
   margin: 0;
 }
