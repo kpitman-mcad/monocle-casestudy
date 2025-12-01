@@ -6,7 +6,7 @@ This is a Case Study of the Design System from the Monocle news site. The projec
 
 -   [Preliminary Design Study Document](https://github.com/kpitman-mcad/monocle-casestudy/blob/main/assets/Pitman_Kevin_WebSystemStudy_Final.pdf)
 -   [Component Library](https://kpitman-mcad.github.io/monocle-casestudy/components/)
--   [Homepage Recreation (in progress)](https://kpitman-mcad.github.io/monocle-casestudy/)
+-   [Homepage Recreation](https://kpitman-mcad.github.io/monocle-casestudy/)
 
 ## Author
 
