@@ -373,7 +373,18 @@ img {
   text-transform: uppercase;
   font-size: 2.2rem;  
   line-height: 0;
+  opacity: 0;
 }
+
+/* 
+@media  {
+  .banner--site--logo {
+    opacity: 1;
+  }
+} */
+
+
+
 .banner--site--logo a {
   color: var(--black);
   text-decoration: none;
