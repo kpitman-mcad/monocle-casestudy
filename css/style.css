@@ -229,10 +229,17 @@ img {
 .home--page--nav__sticky {
   position: sticky;
   top: 3.7rem;
-  /* overflow: auto; */
   z-index: 1;
 }
-.home--page--style {
+.banner--style {
+  padding: 0 1rem;
+  margin: auto;
+  background-color: var(--white);
+}
+.nav--style {
+  background-color: var(--white);
+}
+.articles--style {
   padding: 0 1rem;
   max-width: 82rem;
   margin: auto;
@@ -322,6 +329,9 @@ img {
   background-color: var(--white);
   border-bottom: 1px solid var(--black);
   padding: 0.85rem 0;
+  align-items: center;
+  max-width: 80rem;
+  margin: auto;
 }
 .banner--navigation {
   display: flex;
@@ -358,6 +368,15 @@ img {
 }
 .banner--navigation--atom__b a:hover {
   text-decoration: underline;
+}
+.banner--site--logo {
+  text-transform: uppercase;
+  font-size: 2.2rem;  
+  line-height: 0;
+}
+.banner--site--logo a {
+  color: var(--black);
+  text-decoration: none;
 }
 .banner--utility {
   display: flex;
@@ -429,6 +448,9 @@ img {
 .header {
   display: flex;
   justify-content: space-between;
+  padding: 0 1rem;
+  max-width: 82rem;
+  margin: auto;
 }
 .header--atoms {
   display: flex;
@@ -464,6 +486,9 @@ img {
 **/
 .nav {
   background-color: var(--white);
+  padding: 0 1rem;
+  max-width: 82rem;
+  margin: auto;
 }
 .nav--atom {
   display: flex;
@@ -1663,7 +1688,7 @@ img {
   display: flex;
   padding: 2.5rem 1rem;
   gap: 1.5rem;
-  border-bottom: 1px solid var(--mid-gray);
+  border-bottom: 1px solid var(--white);
   max-width: 82rem;
   margin: 2rem auto 1rem;
 }
