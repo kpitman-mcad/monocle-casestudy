@@ -644,7 +644,6 @@ img {
 .article--card {
   display: flex;
   flex-direction: column;
-  /* padding: 1rem 0 0 0; */
   justify-content: space-between;
   min-height: 24rem;
   max-width: 25rem;
@@ -658,7 +657,6 @@ img {
   max-width: 25rem;
 }
 .article--card--atom__a img{
-  /* max-width: 80%; */
   margin: auto;
   height: 13rem;
   object-fit: cover;
@@ -719,7 +717,6 @@ img {
   padding: 0;
   max-width: 25rem;
   justify-content: space-between;
-  /*correct this auto height setting later */
   min-height: 7.5rem;
 }
 .article--item__category {
@@ -1318,7 +1315,6 @@ img {
 .category--card--atom__a img {
   margin: auto;
   object-fit: cover;
-  /* height: 100%; */
 }
 .category--card--atom__a h3 {
   font-family: var(--font-serif);
