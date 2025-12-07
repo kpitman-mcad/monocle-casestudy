@@ -1468,6 +1468,9 @@ img {
 }
 .partner--card--atom__a img {
   margin: 0 0 0.5rem 0;
+  width: 100%;
+  object-fit: cover;
+  aspect-ratio: 4/3;
 }
 .partner--card__title {
   margin: 0;
